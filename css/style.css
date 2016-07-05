@@ -8,7 +8,7 @@
 body {
 	font-family: "Graphik";
 	font-weight: 400;
-	color: #808080;
+	color: #A0A0A0;
 }
 
 .navbar {
@@ -60,9 +60,14 @@ body {
 	color: #FFFFFF;
 	font-size: 1.4em;
 	font-weight: 300;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-bottom: 50px;
 }
+.container.disclaimer {
+	text-align: center;
+}
+
 .container-fluid.call-to-action #call-us {
 	font-style: italic;
 	font-size: 1.1em;
@@ -77,6 +82,10 @@ body {
 form .input-group input {
 	color: #232323;
 }
+.form {
+	margin-bottom: 70px;
+}
+
 
 input.btn.btn-lg,
 input.btn.btn-lg:focus {
@@ -97,4 +106,59 @@ button.btn {
 }
 form .input-group #submit {
 
+}
+.container.options {
+	font-size: 1.2em;
+	margin-bottom: 50px;
+}
+.container.options label {
+	width: 150px;
+
+}
+.container.your-sale {
+	text-align: center;
+}
+.your-sale h2 {
+	color: #000000;
+	font-family: "Grad";
+}
+table .td-left  {
+	text-align: left;
+}
+tr {
+	font-size: 1.1em;
+
+}
+
+
+table .td-right {
+	text-align: right;
+}
+table .price-item {
+	background-color: #F7F7F7;
+}
+table .final-price {
+	background-color: #99A8BD;
+	color: #FFFFFF;
+	font-size: 1.4em;
+}
+.row .col-sm-6.col-sm-offset-3 #get-started {
+	font-size: 1.3em;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.nav.navbar-nav.navbar-left {
+	color: #BFBFBF;
+	margin-left: 30px;
+}
+.nav.navbar-nav.navbar-footer-right {
+	color: #BFBFBF;
+	float: right;
+	margin-right: 45px;
+}
+.nav.navbar-nav.navbar-left li a {
+	color: #A0A0A0;
+}
+.nav.navbar-nav.navbar-footer-right li a {
+	color: #A0A0A0;
 }
