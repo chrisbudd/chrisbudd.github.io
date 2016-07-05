@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Graphik;
+    src: url(./fonts/Graphik-Regular);
+}
+
+body {
+	font-family: "Graphik";
+	font-weight: 400;
+	color: #808080;
+}
+
+.navbar {
+	background-color: #FFFFFF;
+	/* [disabled]width: 80%; */
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 0px;
+	margin-top: 40px;
+}
+.navbar-header .navbar-brand #logo {
+	width: 200px;
+	margin-left: -9px;
+	margin-top: -12px;
+}
+.nav.navbar-nav.navbar-right {
+
+
+}
+
+.nav.navbar-nav.navbar-right li a {
+	color: #000000;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 1.2em;
+}
+.container #links {
+	font-size: 0.9em;
+	color: #A2A2A2;
+	font-weight: 300;
+}
+.container .intro {
+	text-align: center;
+	font-family: "Grad";
+	margin-top: 70px;
+	font-size: 3em;
+	color: #000000;
+	margin-bottom: 60px;
+}
+.container .intro #price {
+	color: #33CC99;
+	font-size: 1.4em;
+}
+.container-fluid.call-to-action {
+	text-align: center;
+	background-color: #1F4494;
+	margin-top: 70px;
+	color: #FFFFFF;
+	font-size: 1.4em;
+	font-weight: 300;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.container-fluid.call-to-action #call-us {
+	font-style: italic;
+	font-size: 1.1em;
+	margin-bottom: 40px;
+	font-weight: 300;
+}
+.input-group {
+	margin: 20px auto;
+	width: 100%;
+	color: #000000;
+}
+form .input-group input {
+	color: #232323;
+}
+
+input.btn.btn-lg,
+input.btn.btn-lg:focus {
+	outline: none;
+	width: 60%;
+	height: 50px;
+	margin-right: 2%;
+	background-color: #ECECEC;
+	color: #2F2F2F;
+	border-radius: 3px;
+}
+button.btn {
+	width: 38%;
+	height: 50px;
+	border-radius: 3px;
+	background-color: #3BCFAD;
+	color: #FFFFFF;
+}
+form .input-group #submit {
+
+}
